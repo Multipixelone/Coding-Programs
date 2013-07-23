@@ -19,6 +19,9 @@ def polygon(pen, sides, length):
 pen1 = Pen()
 pen2 = Pen()
 pen3 = Pen()
+pen1.speed("fastest")
+pen2.speed("fastest")
+pen3.speed("fastest")
 
 #patern
 for i in range(180):

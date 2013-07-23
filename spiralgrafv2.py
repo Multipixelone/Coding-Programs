@@ -19,7 +19,7 @@ def polygon(pen, sides, length):
 pen1 = Pen()
 pen2 = Pen()
 pen3 = Pen()
-pen1.speed("fast")
+pen1.speed("fastest")
 #patern
 for i in range(180):
     pen1.color(random.random(),

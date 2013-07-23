@@ -10,13 +10,13 @@ pen2 = Pen()
 pen3 = Pen()
 
 # coler
-pen1.color('purple') 
-pen2.color('#OCA3F4')
+pen1.color('Black') 
+pen2.color('Black')
 pen3.color(random.random(),
            random.random(),
            random.random())
 
-pen1.fd(100)
+pen1.forward(100)
 
 
            
