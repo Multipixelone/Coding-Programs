@@ -1,4 +1,3 @@
-from random import randint
 import RPi.GPIO as GPIO
 import time
 GPIO.setmode(GPIO.BOARD)
@@ -12,12 +11,12 @@ GPIO.output(18,False)
 while True:
 	GPIO.output(18,True)
 	GPIO.output(12,True)
-	time.sleep(randint(0,2)
+	time.sleep(1.7)
 	GPIO.output(18,False)
 	GPIO.output(12,False)
-        time.sleep(randint(0,2))
+        time.sleep(1.9)
 while True:
 	GPIO.output(16,True)
-	time.sleep(randint(0,4))
+	time.sleep(1)
 	GPIO.output(16,False)
-	time.sleep(randint(0,4)
+	time.sleep(1.3)
