@@ -7,6 +7,8 @@ GPIO.setup(12, GPIO.OUT)
 GPIO.setup(16, GPIO.OUT)
 
 GPIO.output(18,False)
+GPIO.output(12,False)
+GPIO.output(16,True)
 
 while True:
 	GPIO.output(18,True)
@@ -15,7 +17,4 @@ while True:
 	GPIO.output(18,False)
 	GPIO.output(12,False)
         time.sleep(1)
-while True:
-	GPIO.output(16,True)
-	time.sleep(2)
-	GPIO.output(16,False)
+
